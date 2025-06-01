@@ -118,7 +118,7 @@
             <label>Total area (m²):</label>
             <input type="number" step="0.1" name="sqm" value="{{ sqm | default('') }}" required>
 
-            <h4>Building type (you can select multiple):</h4>
+            <h4>Building type:</h4>
             <div class="checkbox-group">
                 <label><input type="checkbox" name="is_block" {% if is_block %}checked{% endif %}> Block</label>
                 <label><input type="checkbox" name="is_wooden" {% if is_wooden %}checked{% endif %}> Wooden</label>
